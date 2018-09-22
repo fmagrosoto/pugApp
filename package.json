@@ -1,6 +1,6 @@
 {
   "name": "pugapp",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Armazón sencilla para aplicación Express, usando PUG como view template.",
   "main": "index.js",
   "scripts": {
