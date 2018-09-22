@@ -1,0 +1,29 @@
+{
+  "name": "pugapp",
+  "version": "0.0.0",
+  "description": "Armazón sencilla para aplicación Express, usando PUG como view template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=8080 node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmagrosoto/pugApp.git"
+  },
+  "keywords": [
+    "digitae",
+    "express",
+    "pug"
+  ],
+  "author": "Fernando Magrosoto V.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fmagrosoto/pugApp/issues"
+  },
+  "homepage": "https://github.com/fmagrosoto/pugApp#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  }
+}
