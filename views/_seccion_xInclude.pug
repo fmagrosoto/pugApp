@@ -1,0 +1,16 @@
+extends xInclude.pug
+block cuerpo
+  div(id='principal')
+    p.
+      Esta es la sección que corresponde al cuerpo de la página.
+      Pero por raro que parezca, esta sección se encuentra en un
+      HTML que se llama #[code _cuerpo_layout.pug] que después
+      se inserta en el layout principal.
+    p.
+      Este es el principio básico de los templetes y de los
+      #[em includes], es decir, de los templetes tras los templetes.
+
+    include _listado
+
+    hr
+    p Fin del ejemplo
