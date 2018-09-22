@@ -44,6 +44,11 @@ app.get('/mi-primer-plantilla', function (req, res) {
   res.render('_seccion_xInclude', misVariables)
 })
 
+// Segundo ejercicio con plantillas, pero ahora usando Bootstrap
+app.get('/bootstrap', function (req, res) {
+  res.render('bootstrap', {'titulo': 'Plantilla PUG con Bootstrap'})
+});
+
 // Inicializar el servidor
 app.listen(PORT, function () {
   console.log(`Servidor corriendo en el puerto: ${PORT}`)
